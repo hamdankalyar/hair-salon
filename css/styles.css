@@ -1,0 +1,139 @@
+/* Navabar */
+body{
+    overflow-x: hidden;
+    font-family: 'Lora', serif;}
+.navbar{
+    /* background-color: #FAE5E6; */
+    background-color: #323232;
+    
+}
+.navbar-toggler{
+    background-color: #D35F4A; 
+    color:#FAE5E6
+}
+.nav-link{
+    color: #D35F4A
+}
+.links .nav-link{   
+    font-weight: bold;
+} 
+@media screen and (min-width:1140px) {
+    .links .nav-link{
+        margin-left: 2rem; 
+          
+    }   
+
+}
+
+.links .nav-link:hover,
+.icons .nav-link:hover{
+    color: #FAE5E6;
+}
+
+.links .nav-link:focus,
+.icons .nav-link:focus{
+    color: #FAE5E6;
+}
+/* Welcome section */
+.box {
+    width: 100%;
+    
+    
+    color: #D35F4A;
+    
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.section-1 {
+    height: 90vh;
+    background-image: url(../img/Salon-Lighting.jpeg);
+    background-attachment: fixed; 
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.box h1 {
+    font-size: 4rem;
+    text-shadow: 0px 0px 5px #000;
+}
+
+/* Cards section */
+.card-description,
+.tutorials,
+.card-row{
+    background-color: #FAE5E6;
+}
+.card{
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 300px;
+    margin: 0.65rem 0;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.card1{
+    
+    
+    background-image: url(../img/mens.jpeg);
+    
+    
+}
+.card2{
+    
+    background-image: url(../img/womens.jpeg);
+    
+}
+.card3{
+    
+    
+    background-image: url(../img/treatment.jpeg);
+    
+}
+.card4{
+   
+    background-image: url(../img/color.jpeg);    
+
+}
+
+.card p{
+    color: #D35F4A;
+    font-size: 4rem;
+    text-shadow: 0px 0px 5px #000;
+}
+.gallery-row div{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #323232;
+}
+.gallery{
+    background-color: #D35F4A;
+}
+
+/* tutorials */
+
+.tutorials-last-row  div  {
+    padding-bottom: 5rem;  /* Adjust the value as needed */
+}
+/* footer */
+footer{
+    background-color: #323232;
+    color: #D35F4A;
+}
+footer a{
+    color: #D35F4A;
+}
+footer a:hover{
+    color: #FAE5E6;
+}
+footer .btn{
+    background-color:#D35F4A;
+    color: white;
+}
+footer .btn:hover{
+    background-color:#FAE5E6;
+    color: #D35F4A;
+}

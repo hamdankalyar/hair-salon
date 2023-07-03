@@ -1,0 +1,94 @@
+/* Navabar */
+body{
+    overflow-x: hidden;
+    font-family: 'Lora', serif;
+    background-color: #FAE5E6;}
+.navbar{
+    /* background-color: #FAE5E6; */
+    background-color: #323232;
+    
+}
+.navbar-toggler{
+    background-color: #D35F4A; 
+    color:#FAE5E6
+}
+
+.nav-link{
+    color: #D35F4A
+}
+.links .nav-link{   
+    font-weight: bold;
+} 
+@media screen and (min-width:1140px) {
+    .links .nav-link{
+        margin-left: 2rem; 
+          
+    }   
+
+}
+
+.links .nav-link:hover,
+.icons .nav-link:hover{
+    color: #FAE5E6;
+}
+
+.links .nav-link:focus,
+.icons .nav-link:focus{
+    color: #FAE5E6;
+}
+
+/* card */
+.btn{
+    background-color: #D35F4A;
+    color: #FAE5E6;
+    
+}
+.btn:hover{
+    background-color: #FAE5E6;
+    color: #D35F4A;
+}
+.card,
+.list-group-item{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+    width: 100%;
+   
+    object-fit: fill;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+  }
+.main{
+        
+        flex-grow: 1;
+       
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+/* footer */
+footer{
+    background-color: #323232;
+    color: #D35F4A;
+}
+footer a{
+    color: #D35F4A;
+}
+footer a:hover{
+    color: #FAE5E6;
+}
+footer .btn{
+    background-color:#D35F4A;
+    color: white;
+}
+footer .btn:hover{
+    background-color:#FAE5E6;
+    color: #D35F4A;
+}
